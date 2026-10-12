@@ -1,0 +1,58 @@
+import { Category } from "@/types/category";
+
+export const categories: Category[] = [
+  {
+    id: "fashion",
+    name: "Fashion",
+    slug: "fashion",
+    description: "Avant-garde tailoring, relaxed utilitarian silhouettes, and contemporary editorial cuts.",
+    image: "/images/category-fashion-01.png",
+    subtitle: "SS26 Runway & Editorial Tailoring",
+    itemCount: 48,
+  },
+  {
+    id: "electronics",
+    name: "Electronics",
+    slug: "electronics",
+    description: "Architectural audio devices, precision engineering, and minimalist daily tech.",
+    image: "/images/category-electronics-01.png",
+    subtitle: "Acoustics & Precision Devices",
+    itemCount: 32,
+  },
+  {
+    id: "home-living",
+    name: "Home & Living",
+    slug: "home-living",
+    description: "Sculptural forms, organic stoneware, and curated interior spatial objects.",
+    image: "/images/category-home-living-01.png",
+    subtitle: "Sculptural Living & Spaces",
+    itemCount: 29,
+  },
+  {
+    id: "beauty-personal-care",
+    name: "Beauty & Personal Care",
+    slug: "beauty-personal-care",
+    description: "Clean formulations, pigment-rich pigments, and daily regenerative wellness rituals.",
+    image: "/images/category-beauty-01.png",
+    subtitle: "Clean Rituals & Botanical Pigments",
+    itemCount: 24,
+  },
+  {
+    id: "sports-outdoors",
+    name: "Sports & Outdoors",
+    slug: "sports-outdoors",
+    description: "Technical dynamic outerwear, trail-engineered footwear, and movement equipment.",
+    image: "/images/category-sports-outdoors-01.png",
+    subtitle: "High-Performance Activewear",
+    itemCount: 38,
+  },
+  {
+    id: "accessories",
+    name: "Accessories",
+    slug: "accessories",
+    description: "Horological timepieces, hand-finished silks, statement eyewear, and leathercraft.",
+    image: "/images/watch.jpg",
+    subtitle: "Horology, Silks & Leather Goods",
+    itemCount: 42,
+  },
+];
